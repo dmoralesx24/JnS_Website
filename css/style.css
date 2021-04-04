@@ -205,6 +205,7 @@ header .intro-text {
 }
 /* About Section */
 #about {
+	width: 100%;
 	padding: 120px 0 80px 0;
 	background: #f6f6f6;
 }
