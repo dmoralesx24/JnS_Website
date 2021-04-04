@@ -1,0 +1,8 @@
+{
+  "name": "JnS_Website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/dmoralesx24/JnS_Website.git",
+  "author": "David <dmorales24@gmail.com>",
+  "license": "MIT"
+}
