@@ -7,6 +7,7 @@ body, html {
 	width: 100% !important;
 	height: 100% !important;
 }
+
 h2 {
 	margin: 0 0 20px 0;
 	font-weight: 600;
@@ -156,7 +157,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 /* Header Section */
 .intro {
 	display: table;
-	width: 100%;
+	width: 100% !important;
 	padding: 0;
 	background: url(../img/intro-bg.jpg) top center no-repeat;
 	background-color: #e5e5e5;
@@ -186,6 +187,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99000000', e
 	margin-bottom: 10px;
 	text-transform: uppercase;
 }
+/*This is a media query for intro text to fit on iphone screen */
+@media screen and (max-width: 800px) {
+	.intro h1 {
+		color: #fff;
+		font-size: 50px !important;
+		font-weight: 700;
+		letter-spacing: -1px;
+		margin-top: 0;
+		margin-bottom: 10px;
+		text-transform: uppercase;
+	}
+  }
 .intro p {
 	color: #fff;
 	font-size: 22px;
