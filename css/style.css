@@ -88,6 +88,13 @@ hr {
 	font-weight: 600;
 	color: #eee;
 }
+@media screen and (max-width: 500px) {
+	#menu a.navbar-brand {
+		font-size: 15px;
+		font-weight: 600;
+		color: #eee;
+	}
+  }
 #menu.navbar-default .navbar-nav > li > a {
 	text-transform: uppercase;
 	color: #ddd;
@@ -188,10 +195,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99000000', e
 	text-transform: uppercase;
 }
 /*This is a media query for intro text to fit on iphone screen */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 500px) {
 	.intro h1 {
 		color: #fff;
-		font-size: 50px !important;
+		font-size: 30px !important;
 		font-weight: 700;
 		letter-spacing: -1px;
 		margin-top: 0;
